@@ -1,16 +1,27 @@
 package easyroadtrip.com.ezroadtrip.Domain;
 
+import com.j256.ormlite.field.DatabaseField;
+import com.j256.ormlite.table.DatabaseTable;
+
 /**
  * Created by aravindchowdary on 7/29/17.
  */
 
+@DatabaseTable(tableName = "Waypoint")
 public class Waypoint {
+    @DatabaseField
     private Double linkId;
-    private Double[] mappedPosition;
-    private Double originalPosition;
+    @DatabaseField
+    private MappedPosition mappedPosition ;
+    @DatabaseField
+    private OriginalPosition originalPosition;
+    @DatabaseField
     private Double spot;
+    @DatabaseField
     private String mappedRoadName;
+    @DatabaseField
     private String label;
+    @DatabaseField
     private Double shapeIndex;
 
     public Double getLinkId() {
@@ -21,19 +32,19 @@ public class Waypoint {
         this.linkId = linkId;
     }
 
-    public Double[] getMappedPosition() {
+    public MappedPosition getMappedPosition() {
         return mappedPosition;
     }
 
-    public void setMappedPosition(Double[] mappedPosition) {
+    public void setMappedPosition(MappedPosition mappedPosition) {
         this.mappedPosition = mappedPosition;
     }
 
-    public Double getOriginalPosition() {
+    public OriginalPosition getOriginalPosition() {
         return originalPosition;
     }
 
-    public void setOriginalPosition(Double originalPosition) {
+    public void setOriginalPosition(OriginalPosition originalPosition) {
         this.originalPosition = originalPosition;
     }
 

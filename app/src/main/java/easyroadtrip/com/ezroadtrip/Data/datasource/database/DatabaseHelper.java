@@ -12,6 +12,8 @@ import com.j256.ormlite.table.TableUtils;
 
 import java.sql.SQLException;
 
+import easyroadtrip.com.ezroadtrip.Domain.MappedPosition;
+import easyroadtrip.com.ezroadtrip.Domain.OriginalPosition;
 import easyroadtrip.com.ezroadtrip.Domain.Route;
 import easyroadtrip.com.ezroadtrip.Domain.Summary;
 import easyroadtrip.com.ezroadtrip.Domain.Trip;
@@ -32,6 +34,8 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper{
     private RuntimeExceptionDao<Summary, Integer> mSummaryDao;
     private RuntimeExceptionDao<Trip, Integer> mTripDao;
     private RuntimeExceptionDao<Waypoint, Integer> mWaypointDao;
+    private RuntimeExceptionDao<MappedPosition, Integer> mMappedPositionDao;
+    private RuntimeExceptionDao<OriginalPosition, Integer> mOriginalPositionDao;
 
     private DatabaseHelper(Context context){
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -50,6 +54,8 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper{
             TableUtils.createTable(connectionSource, Summary.class);
             TableUtils.createTable(connectionSource, Trip.class);
             TableUtils.createTable(connectionSource, Waypoint.class);
+            TableUtils.createTable(connectionSource, MappedPosition.class);
+            TableUtils.createTable(connectionSource, OriginalPosition.class);
         }
         catch (SQLException e){
             e.printStackTrace();
@@ -70,6 +76,12 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper{
                 onCreate(database, connectionSource);
 
                 TableUtils.dropTable(connectionSource, Waypoint.class, true);
+                onCreate(database, connectionSource);
+
+                TableUtils.dropTable(connectionSource, MappedPosition.class, true);
+                onCreate(database, connectionSource);
+
+                TableUtils.dropTable(connectionSource, OriginalPosition.class, true);
                 onCreate(database, connectionSource);
             }
             catch(SQLException e){
@@ -107,6 +119,20 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper{
         return mWaypointDao;
     }
 
+    public RuntimeExceptionDao<MappedPosition, Integer> getMappedPositionDao(){
+        if(mMappedPositionDao == null){
+            mMappedPositionDao = getRuntimeExceptionDao(MappedPosition.class);
+        }
+        return mMappedPositionDao;
+    }
+
+    public RuntimeExceptionDao<OriginalPosition, Integer> getOriginalPositionDao(){
+        if(mOriginalPositionDao == null){
+            mOriginalPositionDao = getRuntimeExceptionDao(OriginalPosition.class);
+        }
+        return mOriginalPositionDao;
+    }
+
 
     public boolean isRouteRecordExisted(){
         if(getRouteDao().countOf()>0){
@@ -131,6 +157,20 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper{
 
     public boolean isWaypointRecordExisted(){
         if(getWaypointDao().countOf()>0){
+            return true;
+        }
+        return false;
+    }
+
+    public boolean isMappedPositionRecordExisted(){
+        if(getMappedPositionDao().countOf()>0){
+            return true;
+        }
+        return false;
+    }
+
+    public boolean isOriginalPositionRecordExisted(){
+        if(getOriginalPositionDao().countOf()>0){
             return true;
         }
         return false;

@@ -7,6 +7,7 @@ import android.util.Log;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import easyroadtrip.com.ezroadtrip.Data.datasource.database.DatabaseHelper;
 import easyroadtrip.com.ezroadtrip.Data.datasource.network.RestClient;
 import easyroadtrip.com.ezroadtrip.Presentation.Navigator.Navigator;
 import easyroadtrip.com.ezroadtrip.R;
@@ -22,6 +23,9 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+
+        // TODO: Generate Database
+        DatabaseHelper.getInstance(getApplicationContext());
 
     }
 
