@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">EZRoadTrip</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="no_trip">No trip</string>
 </resources>
