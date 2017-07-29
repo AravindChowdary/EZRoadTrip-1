@@ -1,6 +1,5 @@
-package dora.edu.demoapplication.network.impl;
+package easyroadtrip.com.ezroadtrip.Data.datasource.network;
 
-import dora.edu.demoapplication.network.RestApi;
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
@@ -11,7 +10,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RestClient {
 
-    private static String END_POINT = "https://api.github.com/";
+    private static String END_POINT = "https://ezroad.mybluemix.net";
     public static RestApi restApi;
 
     static {

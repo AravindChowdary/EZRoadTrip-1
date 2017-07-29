@@ -1,11 +1,10 @@
-package dora.edu.demoapplication.network;
+package easyroadtrip.com.ezroadtrip.Data.datasource.network;
 
-import java.util.List;
-
-import dora.edu.demoapplication.model.GithubRepo;
 import retrofit2.Call;
+import retrofit2.http.Field;
 import retrofit2.http.GET;
 import retrofit2.http.Path;
+import retrofit2.http.Query;
 
 /**
  * Created by Dora on 7/24/2017.
@@ -13,7 +12,7 @@ import retrofit2.http.Path;
 
 public interface RestApi {
 
-    @GET("/users/{user}/repos")
-    Call<List<GithubRepo>> requestUserRepo(@Path("user") String user);
+    @GET("/apis/v1/roles")
+    Call<String> requestUserRepo(@Query("idprolemap") String idRoadMap);
 
 }
