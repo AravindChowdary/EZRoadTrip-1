@@ -2,4 +2,10 @@
     <string name="app_name">EZRoadTrip</string>
     <string name="title_activity_home">HomeActivity</string>
     <string name="no_trip">No trip</string>
+    <string name="new_trip">New Trip</string>
+    <string name="origin">Origin:</string>
+    <string name="destination">Destination:</string>
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="find_the_route">Find The Route</string>
 </resources>
