@@ -8,7 +8,14 @@
     tools:context="easyroadtrip.com.ezroadtrip.Presentation.activity.SplashActivity">
 
     <ImageView
-        android:src="@mipmap/ic_launcher_round"
+        android:id="@+id/icWelcome"
+        android:src="@mipmap/ic_marker"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ProgressBar
+        android:layout_below="@id/icWelcome"
         android:layout_centerInParent="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
