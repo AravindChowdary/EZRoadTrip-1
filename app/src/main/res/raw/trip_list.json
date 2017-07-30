@@ -1,0 +1,262 @@
+[{
+  "origin":"RoverPass",
+  "destination":"Foot of the Rockies RV Resort",
+  "start_date": "2017-31-7",
+  "end_date": "2017-5-8",
+  "safety_alert": true,
+  "places":[
+    {
+      "rating": 0,
+      "fee": "One day Park fee: 24$",
+      "title": "RoverPass",
+      "duration": "People typically spend up to 10 hours here",
+      "position": [
+        30.27027,
+        -97.74031
+      ],
+      "place_id": "ChIJGbgzIqG1RIYRQAO9N-O6Vmc",
+      "id": "8408lxx5-5b1d5f5bafda01d2af278054e46779ae",
+      "address": "1011 San Jacinto Blvd #303, Austin, TX 78701, United States",
+      "thingstodo": "list all the activies and cost"
+    },
+    {
+      "rating": 5,
+      "fee": "One day Park fee: 32$",
+      "title": "Texas Fencing Academy",
+      "duration": "People typically spend up to 8 hours here",
+      "position": [
+        30.350648,
+        -97.706378
+      ],
+      "place_id": "ChIJx_XKTNLLRIYRpgzowim4yeI",
+      "id": "8403fv6k-de1e6da85d22085176dd5e045c744e61",
+      "address": "8227 N Lamar Blvd B, Austin, TX 78753, United States",
+      "thingstodo": "list all the activies and cost"
+    },
+    {
+      "rating": 4.4,
+      "fee": "One day Park fee: 50$",
+      "title": "Brazos River RV Park",
+      "duration": "People typically spend up to 10 hours here",
+      "position": [
+        31.698,
+        -97.23702
+      ],
+      "place_id": "ChIJId9POImZT4YR876XnPwm0yc",
+      "id": "8409vdu7-94c9245b24b34e4288dd64005dc2b325",
+      "address": "1055 River Rd, Waco, TX 76705, United States",
+      "thingstodo": "list all the activies and cost"
+    },
+    {
+      "rating": 3.5,
+      "fee": "One day Park fee: 11$",
+      "title": "Dodge City RV Park",
+      "duration": "People typically spend up to 2 hours here",
+      "position": [
+        32.55336,
+        -97.234207
+      ],
+      "place_id": "ChIJ4wnZsR5eToYRbQVfzzhpB2I",
+      "id": "8409vfc5-bfa186714df340039992bf32cc675687",
+      "address": "4126 County Rd 616, Alvarado, TX 76009, United States",
+      "thingstodo": "list all the activies and cost"
+    },
+    {
+      "rating": 2.5,
+      "fee": "One day Park fee: 22$",
+      "title": "Pat's Court",
+      "duration": "People typically spend up to 2 hours here",
+      "position": [
+        32.79571,
+        -97.29264
+      ],
+      "place_id": "ChIJDT7mJTx3ToYRfawNyUM8SLU",
+      "id": "8403fv6k-af163e8796e00e3ffb603bc14e018532",
+      "address": "3749 NE 28th St, Haltom City, TX 76111, United States",
+      "thingstodo": "list all the activies and cost"
+    },
+    {
+      "rating": 3.6,
+      "fee": "One day Park fee: 34$",
+      "title": "Fowler's RV Park",
+      "duration": "People typically spend up to 11 hours here",
+      "position": [
+        32.95435,
+        -97.42239
+      ],
+      "place_id": "ChIJFV1fqebdTYYRHDw5ghvgwt0",
+      "id": "8409vfer-76cc90671d8749178c5f8e7b5f5a59af",
+      "address": "12465 N Saginaw Blvd, Fort Worth, TX 76179, United States",
+      "thingstodo": "list all the activies and cost"
+    },
+    {
+      "rating": 4,
+      "fee": "One day Park fee: 17$",
+      "title": "Lee's Country Camp Ground",
+      "duration": "People typically spend up to 2 hours here",
+      "position": [
+        33.04264,
+        -97.48807
+      ],
+      "place_id": "ChIJOzjpyoXoTYYRvtwni3cnG1s",
+      "id": "8409vfev-857d3e35bf6140889fe91dec188734f7",
+      "address": "684 Co Rd 4651, Rhome, TX 76078, United States",
+      "thingstodo": "list all the activies and cost"
+    },
+    {
+      "rating": 3.4,
+      "fee": "One day Park fee: 20$",
+      "title": "Boyd RV Park",
+      "duration": "People typically spend up to 6 hours here",
+      "position": [
+        33.07741,
+        -97.55795
+      ],
+      "place_id": "ChIJTUjpJ_3uTYYRiXFgBYtu2nQ",
+      "id": "8409vfsh-1cf12feeaf5649f9abbb869601142af1",
+      "address": "538 Rock Island Ave, Boyd, TX 76023, United States",
+      "thingstodo": "list all the activies and cost"
+    },
+    {
+      "rating": 4.4,
+      "fee": "One day Park fee: 23$",
+      "title": "Wichita Falls RV Park",
+      "duration": "People typically spend up to 9 hours here",
+      "position": [
+        33.911225,
+        -98.525308
+      ],
+      "place_id": "ChIJzfUR_fwgU4YRO3QQCQcCf2c",
+      "id": "8409y1by-ecd45d0518564b03bfe965e7fa28c73a",
+      "address": "2944 Seymour Hwy, Wichita Falls, TX 76301, United States",
+      "thingstodo": "list all the activies and cost"
+    },
+    {
+      "rating": 3.5,
+      "fee": "One day Park fee: 10$",
+      "title": "Overnite RV Park",
+      "duration": "People typically spend up to 2 hours here",
+      "position": [
+        35.196017,
+        -101.742455
+      ],
+      "place_id": "ChIJh0UNIltIAYcRqdJBlAQxvFs",
+      "id": "8409wr8h-3443cff657af45c89ea24c523b08e882",
+      "address": "900 S Lakeside Dr, Amarillo, TX 79118, United States",
+      "thingstodo": "list all the activies and cost"
+    },
+    {
+      "rating": 4.5,
+      "fee": "One day Park fee: 21$",
+      "title": "Wonderland RV Resort",
+      "duration": "People typically spend up to 10 hours here",
+      "position": [
+        35.234511,
+        -101.8327
+      ],
+      "place_id": "ChIJk9r9vPQVSocROoHdJcZuuDc",
+      "id": "840aabd1-135854bcdab004dc4a4305d20145a05f",
+      "address": "44 UT-12, Torrey, UT 84775, United States",
+      "thingstodo": "list all the activies and cost"
+    },
+    {
+      "rating": 4.1,
+      "fee": "One day Park fee: 34$",
+      "title": "Corral RV Park",
+      "duration": "People typically spend up to 4 hours here",
+      "position": [
+        36.074678,
+        -102.506805
+      ],
+      "place_id": "ChIJ2dtusMS2BYcRw8n_Hoy8joA",
+      "id": "8409wrj5-dd7bf67c4062438dbd1a62ef2f32e8e1",
+      "address": "Corral Rv Park, Highway 54 East, Dalhart, TX 79022, United States",
+      "thingstodo": "list all the activies and cost"
+    },
+    {
+      "rating": 4.4,
+      "fee": "One day Park fee: 11$",
+      "title": "Clayton RV Park",
+      "duration": "People typically spend up to 11 hours here",
+      "position": [
+        36.444556,
+        -103.17406
+      ],
+      "place_id": "ChIJY9Ig7oddBYcRFGmAmVTScNI",
+      "id": "8409wqxk-8db092a36a3c495bb7bd0bcd6dce4f72",
+      "address": "903 S 5th St, Clayton, NM 88415, United States",
+      "thingstodo": "list all the activies and cost"
+    },
+    {
+      "rating": 4.4,
+      "fee": "One day Park fee: 38$",
+      "title": "Capulin RV Park",
+      "duration": "People typically spend up to 6 hours here",
+      "position": [
+        36.74226,
+        -103.99527
+      ],
+      "place_id": "ChIJXz9L8-hrEIcRn6rDsucJfDs",
+      "id": "840aabd1-b5995af558ba06ffc3258e178251f16d",
+      "address": "7 Santa Fe Ave, Capulin, NM 88414, United States",
+      "thingstodo": "list all the activies and cost"
+    },
+    {
+      "rating": 0,
+      "fee": "One day Park fee: 42$",
+      "title": "Enchanted Hills",
+      "duration": "People typically spend up to 4 hours here",
+      "position": [
+        36.910199,
+        -104.428293
+      ],
+      "place_id": "ChIJbW_LaLZUhIARvbRlCJAzdng",
+      "id": "8409wt9z-006929a97e334d0f8b5b7c90becd1113",
+      "address": "Enchanted Hills, CA 94558, USA",
+      "thingstodo": "list all the activies and cost"
+    },
+    {
+      "rating": 3.2,
+      "fee": "One day Park fee: 26$",
+      "title": "Pueblo West Campground",
+      "duration": "People typically spend up to 12 hours here",
+      "position": [
+        38.34115,
+        -104.71922
+      ],
+      "place_id": "ChIJW_88nfeeE4cRvi-gNjUu2So",
+      "id": "8409wvd1-eba78914c4934fc1bdfb1a542a5d3363",
+      "address": "480 E McCulloch Blvd, Pueblo West, CO 81007, United States",
+      "thingstodo": "list all the activies and cost"
+    },
+    {
+      "rating": 4.4,
+      "fee": "One day Park fee: 45$",
+      "title": "Cheyenne Mountain State Park",
+      "duration": "People typically spend up to 8 hours here",
+      "position": [
+        38.738338,
+        -104.808449
+      ],
+      "place_id": "ChIJWTahD8VCE4cRgcEuWtBgYS0",
+      "id": "840aabd1-3886b332279e09cef00e5bb97c32e3e4",
+      "address": "410 JL Ranch Heights Rd, Colorado Springs, CO 80926, United States",
+      "thingstodo": "list all the activies and cost"
+    },
+    {
+      "rating": 3.6,
+      "fee": "One day Park fee: 25$",
+      "title": "Foot of the Rockies RV Resort",
+      "duration": "People typically spend up to 9 hours here",
+      "position": [
+        38.830719,
+        -104.843456
+      ],
+      "place_id": "ChIJxRSUvzFFE4cRZyDUdimzUuU",
+      "id": "840aabd1-fde3d8df6e480c469e325884810513af",
+      "address": "53 Resort Point, Colorado Springs, CO 80905, United States",
+      "thingstodo": "list all the activies and cost"
+    }
+  ]
+}
+  ]

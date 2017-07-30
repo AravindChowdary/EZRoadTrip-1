@@ -5,19 +5,24 @@
               android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/txtTitle"
-        android:textStyle="bold"
+        android:id="@+id/txtFee"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <TextView
-        android:id="@+id/txtVicinity"
+        android:id="@+id/txtRating"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <View
-        android:background="@android:color/background_dark"
+    <TextView
+        android:text="Things To Do:"
         android:layout_width="match_parent"
-        android:layout_height="1dp"/>
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtThingsToDo"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

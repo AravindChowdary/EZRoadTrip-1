@@ -3,14 +3,7 @@
     <!-- Here API Configuration -->
     <string name="app_id">2hTFJUeboG2ElLNfziIJ</string>
     <string name="app_code">hPl4Z6jI6QcZ5p4_NA8Atg</string>
-    <string name="license_key">Piu0oZbVBZDzV4l3iXx7Guv+XGrL+FdrrTBdoyIcsvSDbIh8dB2E8+/vUvX/kMX6FPMI
-        EsE33X1fxcvv72I2R2WUeUsdphsPQJiyZFiZPcp+LiHZ4bNo8fe/JRMaOt6RrE2YOdbsDWEpiobDeryiexiqsnIALA4y
-        +c4JyeBfw/qAV3S6N3SYX81iHKlNM5viketJ3GLSolwZPguA2Dz7iKDWnFFf+wctB2zDPJA176Qc/3bMq/qPraLVFIS
-        Luzz1mQKfpPoq38+F4h+lStY2XMXGuPmhC5weldz2tMDnYmNHNUcR7fjt4s5FDTn275lYWL1d4slXE4MHGQD3PZPBwlm
-        BYb+IhRsBpXYsAiJYupGkTd3idPHsbKUbUCdpoEsFPcZnU8ZeRe6Dw4nafFY3fSyseI+dG/WjJ4zbJLUoVC/Htp2XkB2
-        DTc2BcDHwjf/LEUL2JyHnl+Wf4DE1bSbkEi6thBKfBxha8l16IkAarcyOzoabMFMFG5AMfKER+T3AT3cz9axYFv5vKy
-        upwZOVhWrkmtiU9KLnoL4tdHl/iJQQM1N7PYDlVs2P5TsBmbb7MW+0LNpK0UQLFhRNv0rmDo3byw1YRJx2WT7tzFvCT
-        TAwJUua7fDQMkdO0W8xKoGmXLlzW3jRMBrRsfVIhalhT6QtjYlsBVV8smkut6eJAvE=</string>
+    <string name="license_key">Piu0oZbVBZDzV4l3iXx7Guv+XGrL+FdrrTBdoyIcsvSDbIh8dB2E8+/vUvX/kMX6FPMIEsE33X1fxcvv72I2R2WUeUsdphsPQJiyZFiZPcp+LiHZ4bNo8fe/JRMaOt6RrE2YOdbsDWEpiobDeryiexiqsnIALA4y+c4JyeBfw/qAV3S6N3SYX81iHKlNM5viketJ3GLSolwZPguA2Dz7iKDWnFFf+wctB2zDPJA176Qc/3bMq/qPraLVFISLuzz1mQKfpPoq38+F4h+lStY2XMXGuPmhC5weldz2tMDnYmNHNUcR7fjt4s5FDTn275lYWL1d4slXE4MHGQD3PZPBwlmBYb+IhRsBpXYsAiJYupGkTd3idPHsbKUbUCdpoEsFPcZnU8ZeRe6Dw4nafFY3fSyseI+dG/WjJ4zbJLUoVC/Htp2XkB2DTc2BcDHwjf/LEUL2JyHnl+Wf4DE1bSbkEi6thBKfBxha8l16IkAarcyOzoabMFMFG5AMfKER+T3AT3cz9axYFv5vKyupwZOVhWrkmtiU9KLnoL4tdHl/iJQQM1N7PYDlVs2P5TsBmbb7MW+0LNpK0UQLFhRNv0rmDo3byw1YRJx2WT7tzFvCTTAwJUua7fDQMkdO0W8xKoGmXLlzW3jRMBrRsfVIhalhT6QtjYlsBVV8smkut6eJAvE=</string>
 
     <string name="app_name">EZRoadTrip</string>
     <string name="title_activity_home">HomeActivity</string>
@@ -21,4 +14,11 @@
     <string name="from">From:</string>
     <string name="to">To:</string>
     <string name="find_the_route">Find The Route</string>
+    <string name="your_journey">Your Journey</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Title</string>
+    <string name="address">Address</string>
+    <string name="duration">Duration</string>
 </resources>

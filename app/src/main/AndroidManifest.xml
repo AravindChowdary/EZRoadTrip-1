@@ -10,13 +10,14 @@
 
     <application
         android:allowBackup="true"
+        android:name=".Presentation.application.EZApplication"
+        android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:hardwareAccelerated="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Presentation.activity.SplashActivity">
+        <activity android:name=".Presentation.activity.SplashActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -25,39 +26,44 @@
         </activity>
         <activity
             android:name=".Presentation.activity.HomeActivity"
+            android:screenOrientation="portrait"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme">
         </activity>
-        <activity android:name=".Presentation.activity.NewTripActivity">
+        <activity android:name=".Presentation.activity.NewTripActivity" android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".Presentation.activity.RouteSuggestionActivity">
+        <activity android:name=".Presentation.activity.TripMapActivity" android:screenOrientation="portrait">
         </activity>
 
         <!-- Configuration for Here API -->
-        <!--Developers should put application credentials here.To obtain them, please register the application
-        at https://developer.here.com/develop/mobile-sdks-->
+        <!--
+        Developers should put application credentials here.To obtain them, please register the application
+        at https://developer.here.com/develop/mobile-sdks
+        -->
         <meta-data
             android:name="com.here.android.maps.appid"
-            android:value="2hTFJUeboG2ElLNfziIJ" />
+            android:value="@string/app_id"/>
         <meta-data
             android:name="com.here.android.maps.apptoken"
-            android:value="hPl4Z6jI6QcZ5p4_NA8Atg" />
+            android:value="@string/app_code"/>
         <meta-data
             android:name="com.here.android.maps.license.key"
-            android:value="Piu0oZbVBZDzV4l3iXx7Guv+XGrL+FdrrTBdoyIcsvSDbIh8dB2E8+/vUvX/kMX6FPMIEsE33X1fxcvv72I2R2WUeUsdphsPQJiyZFiZPcp+LiHZ4bNo8fe/JRMaOt6RrE2YOdbsDWEpiobDeryiexiqsnIALA4y+c4JyeBfw/qAV3S6N3SYX81iHKlNM5viketJ3GLSolwZPguA2Dz7iKDWnFFf+wctB2zDPJA176Qc/3bMq/qPraLVFISLuzz1mQKfpPoq38+F4h+lStY2XMXGuPmhC5weldz2tMDnYmNHNUcR7fjt4s5FDTn275lYWL1d4slXE4MHGQD3PZPBwlmBYb+IhRsBpXYsAiJYupGkTd3idPHsbKUbUCdpoEsFPcZnU8ZeRe6Dw4nafFY3fSyseI+dG/WjJ4zbJLUoVC/Htp2XkB2DTc2BcDHwjf/LEUL2JyHnl+Wf4DE1bSbkEi6thBKfBxha8l16IkAarcyOzoabMFMFG5AMfKER+T3AT3cz9axYFv5vKyupwZOVhWrkmtiU9KLnoL4tdHl/iJQQM1N7PYDlVs2P5TsBmbb7MW+0LNpK0UQLFhRNv0rmDo3byw1YRJx2WT7tzFvCTTAwJUua7fDQMkdO0W8xKoGmXLlzW3jRMBrRsfVIhalhT6QtjYlsBVV8smkut6eJAvE=" />
-
+            android:value="@string/license_key"/>
 
         <!-- Service -->
         <service
             android:name="com.here.android.mpa.service.MapService"
+            android:exported="true"
             android:label="HereMapService"
-            android:process="global.Here.Map.Service.v3"
-            android:exported="true">
+            android:process="global.Here.Map.Service.v3">
             <intent-filter>
                 <action android:name="com.here.android.mpa.service.MapService.v3">
                 </action>
             </intent-filter>
         </service>
+
+        <activity android:name=".Presentation.activity.BasicMapActivity" android:screenOrientation="portrait">
+        </activity>
     </application>
 
 </manifest>

@@ -5,4 +5,7 @@ package easyroadtrip.com.ezroadtrip.Presentation.view;
  */
 
 public interface BaseView {
+
+    public void displayToast(String message, int duration);
+
 }
