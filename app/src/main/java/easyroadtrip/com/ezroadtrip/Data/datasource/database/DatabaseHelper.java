@@ -37,6 +37,7 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper{
     private RuntimeExceptionDao<MappedPosition, Integer> mMappedPositionDao;
     private RuntimeExceptionDao<OriginalPosition, Integer> mOriginalPositionDao;
 
+
     private DatabaseHelper(Context context){
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
